@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*Nav section*/
+nav {
+    background-color: #EFC88B;
+    width: 100%;
+    padding: 12px;
+    position: fixed;
+    align-content: flex-start;
+    z-index: 1;
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+nav span{
+    background-color: #D3D5D7;
+    padding: 4px 8px;
+    margin: 4px 8px;
+    border-radius: 5px;
+}
+nav a:hover span{
+    background-color: #CF5C36;
+    color: #fff;
+}
+/* End Nav section*/
+
+/*Home section*/
+#home{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFF0F5;
+    background-image: url("images.h.c/developer_cartoon.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+}
+#home h1{
+    width: 50%;
+    font-size: 40px;
+    padding: 20px;
+    margin-left: 20px;
+}
+#home p{
+    width: 50%;
+    font-size: 24px;
+    line-height: 1.5;
+    padding: 0 28px;
+}
+#home h1 span{
+    color: #ff0000;
+    font-size: 42px;
+    text-shadow: 0 0 2px #000;
+    text-decoration: underline;
+}
+#home p span{
+    color: #2F4F4F;
+    font-size: 28px;
+    font-weight: 900;
+}
+#home mark{
+    background-color: #fff;
+}
+/*End Home section*/
+
+/*HTML Home section*/
+#html{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("images.h.c/landscape-7283516_1280.jpg");
+    background-repeat: repeat;
+
+}
+#html h1{
+    display: flex;
+    justify-content: center;
+    padding: 60px 0 0 0;
+}
+#html .boilerplate{
+    justify-content: center;
+    align-self: center;
+}
+.boilerplate h2{
+    text-align: left;
+    font-size: 28px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.boilerplate img{
+    align-items: center;
+    border: 3px solid #2F4F4F;
+    border-radius: 20px;
+}
+#html .html-table{
+    padding: 20px;
+    margin: 20px;
+    display: grid;
+    justify-content: center;
+    
+}
+#html .html-table h2{
+    font-size: 28px;
+    padding-bottom: 20px;
+    text-align: Left;
+    padding-left: 20px;
+}
+#html .html-table th{
+    font-size: 20px;
+    border: 2px solid #000;
+    padding: 8px 24px;
+    background-color: #FF8C00;
+}
+.html-table td{
+    padding: 8px 20px;
+    text-align: center;
+    border: 1.5px solid #000;
+}
+.html-table tr:nth-child(odd){
+    background-color: #FFD580;
+}
+.html-table tr:nth-child(even){
+    background-color: #DCDCDC;
+}
+.html-table td:nth-child(3){
+    font-family: monospace, sans-serif;
+}
+/*End HTML section*/
+
+/*CSS section*/
+#css{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("images.h.c/pastel-dunes.jpg");
+    background-repeat: repeat;
+}
+#css h1{
+    display: flex;
+    justify-content: center;
+    padding: 60px 0 0 0;
+}
+#css .css-table{
+    padding: 20px;
+    margin: 20px;
+    display: grid;
+    justify-content: center;
+}
+#css .css-table h2{
+    font-size: 28px;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-left: 20px;
+}
+#css .css-table th{
+    font-size: 20px;
+    border: 1px solid #000;
+    padding: 8px 24px;
+    background-color: #00008B;
+    color: #fff;
+}
+.css-table td{
+    padding: 8px 20px;
+    text-align: center;
+    border: 1px solid #000;
+}
+.css-table tr:nth-child(odd){
+    background-color: #87CEFA;
+}
+.css-table tr:nth-child(even){
+    background-color: #FFFAF0;
+}
+/*End CSS section*/
+
+/*Mark Highlight color section*/
+#html .html-table mark{
+    background-color: #fff;
+}
+#css .css-table mark{
+    background-color: #FFFFE0;
+}
+.css-table td:nth-child(3){
+    font-family: monospace, sans-serif;
+}
+/*End Mark Highlight color section*/
+
+/*About section*/
+#about{
+    display: flex;
+    background-color: #FFFACD;
+}
+.about{
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+    background-image: url("images.h.c/frame.png");
+    background-repeat: no-repeat;
+    background-size: 100% 85.5%;
+    background-position: center;
+    padding: 50px 0;
+}
+#about .about h1{
+    font-size: 32px;
+    padding: 0 20px 20px;
+    text-align: center;
+   
+
+}
+#about .about p{
+    font-size: 20px;
+    padding: 0 40px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.about-image{
+    flex: 1;
+    align-content: center;
+}
+
+/*About section*/
+
