@@ -42,7 +42,7 @@ nav a:hover span{
     flex-direction: column;
     justify-content: center;
     background-color: #FFF0F5;
-    background-image: url("images.h.c/developer_cartoon.jpg");
+    background-image: url("images/developer_cartoon.jpg");
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: right;
@@ -84,7 +84,7 @@ nav a:hover span{
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-image: url("images.h.c/landscape-7283516_1280.jpg");
+    background-image: url("images/landscape-7283516_1280.jpg");
     background-repeat: repeat;
 
 }
@@ -152,7 +152,7 @@ nav a:hover span{
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-image: url("images.h.c/pastel-dunes.jpg");
+    background-image: url("images/pastel-dunes.jpg");
     background-repeat: repeat;
 }
 #css h1{
@@ -213,7 +213,7 @@ nav a:hover span{
     flex: 1;
     justify-content: center;
     align-content: center;
-    background-image: url("images.h.c/frame.png");
+    background-image: url("images/frame.png");
     background-repeat: no-repeat;
     background-size: 100% 85.5%;
     background-position: center;
@@ -223,8 +223,6 @@ nav a:hover span{
     font-size: 32px;
     padding: 0 20px 20px;
     text-align: center;
-   
-
 }
 #about .about p{
     font-size: 20px;
