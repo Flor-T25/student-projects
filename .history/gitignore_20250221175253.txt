@@ -1,0 +1,15 @@
+# VSCode server and workspace files
+.vscode/
+.vscode-server/
+node_modules/
+*.log
+*.swp
+#vscode
+.vscode/
+# OS specific files
+Thumbs.db
+.DS_Store
+
+#folders
+dasmoto-web-project/
+html-css-cheatsheet/
